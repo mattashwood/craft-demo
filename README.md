@@ -2,6 +2,8 @@
    My Life.app - Craft Exercise
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a922f38f-4fa2-4263-9eef-356619b951d8/deploy-status)](https://app.netlify.com/sites/my-life-craft-demo/deploys)
+
 Craft exercise for an app to help you through various life events, from planning a vacation to buying a house to dealing with the death of a loved one, we're here to help and support you through these stages.
 
 ## 🚀 How to develop locally
