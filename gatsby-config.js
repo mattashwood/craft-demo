@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boostrap 5 Sass Starter`,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@r-ichard`,
+    title: `My Life.app -  Craft Demo`,
+    description: `Working prototype for My Life.app`,
+    author: `@mattashwood`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

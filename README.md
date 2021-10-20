@@ -1,9 +1,8 @@
 <h1 align="left">
-   My Life - Craft Exercise
+   My Life.app - Craft Exercise
 </h1>
 
 Craft exercise for an app to help you through various life events, from planning a vacation to buying a house to dealing with the death of a loved one, we're here to help and support you through these stages.
-
 
 ## 🚀 How to develop locally
 

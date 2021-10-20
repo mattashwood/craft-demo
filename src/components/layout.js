@@ -18,9 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="container-fluid p-0">
-      <Navbar
-        siteTitle={data.site.siteMetadata?.title || `Intuit - Life Stages`}
-      />
+      <Navbar siteTitle={data.site.siteMetadata?.title || `My Life`} />
       <div className="top-mask"></div>
       <main>
         <main>{children}</main>
