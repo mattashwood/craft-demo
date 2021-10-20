@@ -111,7 +111,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <Link to="/all-events/" className="btn btn-secondary">
+        <Link to="/all-events/" className="btn btn-secondary action-tap">
           View all events
         </Link>
       </section>

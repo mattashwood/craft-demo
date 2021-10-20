@@ -1,16 +1,11 @@
 .btn {
   font-size: 1.6rem;
-  transform-origin: center;
-  transition: transform 0.1s ease-in-out;
 
   &.btn-secondary {
     background: rgba(20, 50, 79, 0.1);
     color: #1a3d5f;
   }
 
-  &:active {
-    transform: scale(0.96);
-  }
   &:active,
   &:focus {
     outline: none !important;
@@ -135,4 +130,14 @@ a.more-info {
   background-size: 32px;
   background-image: url(../images/icons/close.svg);
   opacity: 1;
+}
+
+// Clickable link
+.action-tap {
+  transform-origin: center;
+  transition: transform 0.1s ease-in-out;
+
+  &:active {
+    transform: scale(0.96);
+  }
 }

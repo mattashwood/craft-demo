@@ -21,7 +21,7 @@ const AllEvents = () => (
             <div className="col text-end">
               <a
                 type="button"
-                className="more-info"
+                className="more-info action-link"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >

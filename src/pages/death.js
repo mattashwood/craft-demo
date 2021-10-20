@@ -15,7 +15,7 @@ const AllEvents = () => (
           coming days, weeks, and beyond.
         </p>
         <div className="d-grid gap-4 d-flex">
-          <button className="btn btn-primary">Track</button>
+          <button className="btn btn-primary action-tap">Track</button>
           <button className="action-btn action-add-later no-label">
             Add later
           </button>
