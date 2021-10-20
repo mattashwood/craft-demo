@@ -44,7 +44,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-bootstrap-5`,
-        short_name: `Life Stages`,
+        short_name: `My Life`,
         start_url: `/`,
         background_color: `#f4f4ef`,
         theme_color: `#f4f4ef`,
