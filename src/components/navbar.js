@@ -35,7 +35,11 @@ const Navbar = ({ siteTitle }) => {
           Notifications
         </button>
         <button className="action-btn action-search no-label">Search</button>
-        <button className="action-btn action-profile no-label">Profile</button>
+        <Link
+          to="/"
+          className="action-btn action-profile no-label"
+          aria-label="Back home"
+        ></Link>
       </div>
     </nav>
   )

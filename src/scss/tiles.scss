@@ -59,6 +59,30 @@
   .title {
     margin: 0;
     font-size: 1.6rem;
+    line-height: 2.4rem;
+    position: relative;
+    display: inline-block;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      background: repeating-linear-gradient(
+        transparent,
+        transparent 11.5px,
+        #1a3d5f 11.5px,
+        #1a3d5f 12.5px,
+        transparent 12.5px,
+        transparent 35.5px,
+        #1a3d5f 35.5px,
+        #1a3d5f 36.5px
+      );
+      transition: all 0.28s ease-in-out;
+    }
   }
 
   &.active {
@@ -72,7 +96,10 @@
       background-image: url(../images/icons/icon-check-checked.svg);
     }
     .title {
-      text-decoration: line-through;
+      // text-decoration: line-through;
+      &:before {
+        right: 0;
+      }
     }
   }
 }

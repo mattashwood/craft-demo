@@ -94,6 +94,12 @@
 
 .action-profile {
   border-radius: 40px;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  display: block;
+  margin-left: 16px;
+  float: right;
   padding: 2px;
   background-color: rgba($navy-300, 0.1);
   background-image: url(../images/icons/profile.png);
