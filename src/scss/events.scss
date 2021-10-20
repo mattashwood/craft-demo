@@ -27,9 +27,15 @@
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: contain;
+
+    &.spacer {
+      width: 16px;
+      margin-left: 0;
+      padding: 0;
+    }
   }
 
-  li + li {
+  li + li:not(.spacer) {
     margin-left: 12px;
   }
 

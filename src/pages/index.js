@@ -52,6 +52,7 @@ const IndexPage = () => (
               Apply for student loan
             </p>
           </li>
+          <li className="spacer"></li>
         </ul>
       </section>
 
