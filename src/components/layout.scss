@@ -1,0 +1,26 @@
+//Here you can customize bootstrap
+html {
+  font-size: 62.5%;
+}
+
+@import "../scss/variables.scss";
+@import "../scss/mixins.scss";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "../scss/fonts.scss";
+@import "../scss/typography.scss";
+@import "../scss/colors.scss";
+@import "../scss/brand.scss";
+@import "../scss/base.scss";
+
+@import "../scss/buttons.scss";
+@import "../scss/cards.scss";
+@import "../scss/events.scss";
+@import "../scss/icons.scss";
+@import "../scss/inputs.scss";
+@import "../scss/menu.scss";
+@import "../scss/modal.scss";
+@import "../scss/nav.scss";
+@import "../scss/tiles.scss";
+@import "../scss/pages.scss";

@@ -1,0 +1,26 @@
+.top-bar {
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 20;
+  padding-top: 12px;
+  padding-right: $container-padding-x;
+  padding-bottom: 12px;
+  padding-left: $container-padding-x;
+  background-color: rgba($tofu-100, 0.84);
+  backdrop-filter: blur(16px);
+}
+// Check in later
+.top-mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 64px;
+  left: -20px;
+  right: -20px;
+  background-color: rgba($tofu-100, 0.84);
+  filter: blur(24px);
+  z-index: 1;
+}

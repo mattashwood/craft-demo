@@ -1,0 +1,78 @@
+.tile {
+  border-radius: 12px;
+  display: block;
+  padding: 12px;
+  background: rgba($tofu-200, 0.55);
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.icon-wrapper {
+  width: 48px;
+  .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: $sage-200;
+  }
+}
+
+.tile-details {
+  padding-left: 20px;
+
+  .title {
+    font-size: $font-size-base;
+    font-weight: $font-weight-demi;
+    margin: 0 0 4px;
+  }
+  .desc {
+    font-size: $font-size-sm;
+    color: $gray-300;
+    margin: 0;
+  }
+}
+
+// Checkbox tiles
+
+.check-tile {
+  padding-left: 12px;
+  transition: 0.2s all linear;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .icon-wrapper {
+    padding: 2px;
+    width: 28px;
+    background-color: transparent;
+    .icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 0;
+      background-size: 20px;
+      background-image: url(../images/icons/unchecked.svg);
+      background-color: transparent;
+    }
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+
+  &.active {
+    background-color: rgba(#e4ebf3, 0.5);
+    .icon-wrapper,
+    .title {
+      opacity: 0.6;
+    }
+
+    .icon {
+      background-image: url(../images/icons/icon-check-checked.svg);
+    }
+    .title {
+      text-decoration: line-through;
+    }
+  }
+}

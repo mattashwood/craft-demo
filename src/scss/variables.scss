@@ -1,0 +1,197 @@
+$navy-300: #14324f !default;
+$navy-200: #1a3d5f !default;
+$navy-100: #275582 !default;
+$blue-600: #0078d9 !default;
+$blue-700: #0064b6 !default;
+$buff-100: #f6f3f3 !default;
+$buff-200: #ede7e8 !default;
+$buff-300: #dfd4d8 !default;
+$eggplant-100: #564b7d !default;
+$eggplant-200: #3f365c !default;
+$eggplant-300: #342c4c !default;
+$forest-100: #325f6b !default;
+$forest-200: #244750 !default;
+$forest-300: #19343b !default;
+$gold-600: #ea6c00 !default;
+$gold-700: #d95a00 !default;
+$green-600: #00a475 !default;
+$green-700: #009469 !default;
+$red-600: #dc2245 !default;
+$red-700: #c21c3b !default;
+$sage-100: #ecf6ef !default;
+$sage-200: #ddece1 !default;
+$sage-300: #d1e0d6 !default;
+$sky-100: #eaf6f7 !default;
+$sky-200: #d5ecef !default;
+$sky-300: #bee3e7 !default;
+$storm-100: #eff4f9 !default;
+$storm-200: #e4ebf3 !default;
+$storm-300: #d1dee9 !default;
+$teal-600: #04a0ac !default;
+$teal-700: #048f9a !default;
+$tofu-100: #f4f4ef !default;
+$tofu-200: #eaeae3 !default;
+$tofu-300: #dfdfd8 !default;
+$half-gray: rgba(#000000, 0.5) !default;
+$half-white: rgba(#ffffff, 0.5) !default;
+
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-100: #393a3d !default;
+$gray-200: #6b6c72 !default;
+$gray-300: #8d9096 !default;
+$gray-400: #babec5 !default;
+$gray-500: #d4d7dc !default;
+$gray-600: #e3e5e8 !default;
+$gray-700: #eceef1 !default;
+$gray-800: #f4f5f8 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start theme-color-variables
+$primary: $forest-100 !default;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $tofu-100 !default;
+$body-color: $gray-900 !default;
+$body-text-align: null !default;
+
+// Links
+//
+// Style anchor elements.
+
+// $link-color: $primary !default;
+$link-decoration: underline !default;
+$link-shade-percentage: 20% !default;
+$link-hover-decoration: null !default;
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 1rem !default;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+// scss-docs-end grid-breakpoints
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+) !default;
+// scss-docs-end container-max-widths
+
+// Container padding
+
+$container-padding-x: 16px !default;
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 1.5rem !default;
+$grid-row-columns: 6 !default;
+
+$gutters: $spacers !default;
+
+// scss-docs-start border-radius-variables
+$border-radius: 0.25rem !default;
+$border-radius-sm: 0.2rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-pill: 50rem !default;
+// scss-docs-end border-radius-variables
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: ui-rounded, "SF Pro Rounded", system-ui, -apple-system,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  "Noto Color Emoji" !default;
+$font-family-serif: -apple-system-ui-serif, ui-serif, serif !default;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace !default;
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root: null !default;
+$font-size-base: 1.4rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * 0.875 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-demi: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+
+$font-weight-base: $font-weight-normal !default;
+
+$line-height-base: 1.5 !default;
+$line-height-sm: 1.25 !default;
+$line-height-lg: 2 !default;
+
+$h1-font-size: $font-size-base * 2 !default;
+$h2-font-size: $font-size-base * 1.5 !default;
+$h3-font-size: $font-size-base * 1 !default;
+$h4-font-size: $font-size-base * 0.75 !default;
+$h5-font-size: $font-size-base * 0.675 !default;
+$h6-font-size: $font-size-base !default;
+// scss-docs-end font-variables
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+) !default;
+// scss-docs-end font-sizes
+
+// scss-docs-start input-btn-variables
+$input-btn-padding-y: 0.75rem !default;
+$input-btn-padding-x: 1.5rem !default;
+$input-btn-font-family: null !default;
+$input-btn-font-size: $font-size-base !default;
+$input-btn-line-height: $line-height-base !default;

@@ -1,0 +1,52 @@
+.page-intro,
+.event-intro {
+  margin-top: 40px;
+  h1 {
+    font-size: 2.8rem;
+    line-height: 1.5;
+  }
+}
+
+// Page specifics
+.page-intro {
+  width: 60%;
+  margin-bottom: 20px;
+
+  &.full {
+    width: 80%;
+  }
+}
+
+.home .page-intro {
+  margin-bottom: 40px;
+}
+
+// Event specifics
+.event-intro {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  margin-left: -$container-padding-x;
+  margin-right: -$container-padding-x;
+  padding-left: $container-padding-x;
+  padding-right: $container-padding-x;
+  border-bottom: 1px solid $tofu-300;
+  h1,
+  p {
+    width: 60%;
+  }
+  h1 {
+    font-family: $font-family-serif;
+    color: $navy-200;
+  }
+  p {
+    color: $half-gray;
+    margin-bottom: 24px;
+  }
+}
+
+.event-death {
+  background-image: url(../images/illustrations/ill-death.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
