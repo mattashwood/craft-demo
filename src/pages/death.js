@@ -14,7 +14,7 @@ const AllEvents = () => (
           We’re sorry for your loss and are here to help you plan ahead for the
           coming days, weeks, and beyond.
         </p>
-        <div className="d-grid gap-4 d-flex">
+        <div className="d-grid gap-4 d-flex align-items-center">
           <button className="btn btn-primary action-tap">Track</button>
           <button className="action-btn action-add-later no-label">
             Add later

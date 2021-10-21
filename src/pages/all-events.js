@@ -12,7 +12,7 @@ const AllEvents = () => (
         <h1>All life events</h1>
       </header>
 
-      <section className="events event-list">
+      <section className="events event-list all-events">
         <div className="tile">
           <div className="row align-items-center">
             <div class="col-auto icon-wrapper align-items-center align-self-center">

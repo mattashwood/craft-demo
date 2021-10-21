@@ -1,15 +1,30 @@
-.btn {
+.btn,
+button {
   font-size: 1.6rem;
+
+  &:not(:disabled) {
+    cursor: default;
+  }
+
+  transition: transform 0.1s linear;
 
   &.btn-secondary {
     background: rgba(20, 50, 79, 0.1);
     color: #1a3d5f;
   }
 
+  &:hover {
+    transform: scale(1.025);
+  }
+
+  &:active {
+  }
+
   &:active,
   &:focus {
     outline: none !important;
     box-shadow: none !important;
+    transform: scale(0.985);
   }
 }
 
@@ -25,7 +40,8 @@
   color: $navy-200;
   position: relative;
 
-  &:active {
+  &:active,
+  &:hover {
     background-color: $tofu-200;
   }
 
@@ -36,6 +52,10 @@
   &.no-label {
     text-indent: -9999px;
   }
+}
+
+.event-intro .action-btn {
+  height: 32px;
 }
 
 .action-group {

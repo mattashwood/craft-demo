@@ -5,6 +5,21 @@
   background: rgba($tofu-200, 0.55);
   margin-bottom: 20px;
   text-decoration: none;
+  cursor: default;
+  transform-origin: center;
+  transform: scale(1); // Set base for transition
+  transition: transform 0.1s linear;
+
+  // Only allow on non-touch devices
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.025);
+    }
+  }
+
+  &:active {
+    transform: scale(0.985);
+  }
 }
 
 .icon-wrapper {
@@ -32,11 +47,16 @@
   }
 }
 
+.all-events .desc {
+  display: none;
+}
+
 // Checkbox tiles
 
 .check-tile {
   padding-left: 12px;
   transition: 0.2s all linear;
+  cursor: default;
 
   .row {
     margin-left: 0;

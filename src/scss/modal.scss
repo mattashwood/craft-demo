@@ -8,10 +8,12 @@
     position: fixed;
     top: auto;
     right: 0;
-    left: 0;
+    left: 50%;
     bottom: 0;
     margin: 0;
     height: 600px;
+    width: 100%;
+    max-width: $app-max-width;
   }
 
   .modal-content {
@@ -31,11 +33,11 @@
 }
 
 .modal.fade .modal-dialog {
-  transform: translate3d(0, 100vh, 0);
+  transform: translate3d(-50%, 100vh, 0);
 }
 
 .modal.show .modal-dialog {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-50%, 0, 0);
 }
 
 // Details list
