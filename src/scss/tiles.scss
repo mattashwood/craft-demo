@@ -24,6 +24,7 @@
 
 .icon-wrapper {
   width: 48px;
+
   .icon {
     width: 48px;
     height: 48px;
@@ -52,7 +53,6 @@
 }
 
 // Checkbox tiles
-
 .check-tile {
   padding-left: 12px;
   transition: 0.2s all linear;
@@ -62,10 +62,12 @@
     margin-left: 0;
     margin-right: 0;
   }
+
   .icon-wrapper {
     padding: 2px;
     width: 28px;
     background-color: transparent;
+
     .icon {
       width: 24px;
       height: 24px;

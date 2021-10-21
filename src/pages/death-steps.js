@@ -19,14 +19,14 @@ const AllEvents = () => (
               <h3>Weeks 1-2</h3>
             </div>
             <div className="col text-end">
-              <a
+              <button
                 type="button"
                 className="more-info action-link"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
                 More info
-              </a>
+              </button>
             </div>
           </div>
 
